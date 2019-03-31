@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=11;
+		nextID=12;
 	};
 	class Camera
 	{
@@ -793,7 +793,7 @@ class Mission
 			};
 			id=16;
 			type="LIB_P47";
-			atlOffset=3.2872112;
+			atlOffset=3.299999;
 		};
 		class Item2
 		{
@@ -6439,12 +6439,12 @@ class Mission
 				angles[]={0,4.376904,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=572;
 			type="LIB_P47";
-			atlOffset=3.2791593;
 		};
 		class Item341
 		{
@@ -7314,7 +7314,7 @@ class Mission
 			};
 			id=584;
 			type="LIB_P47";
-			atlOffset=22.451921;
+			atlOffset=22.452782;
 		};
 		class Item348
 		{

@@ -31,7 +31,7 @@ while {true} do {
 				((typeOf _x) in KP_liberation_ace_crates)) &&
 				(alive _x) &&
 				((count(attachedObjects _x) == 0) || ((typeOf _x) == "rhsusf_mkvsoc")) &&
-				(_x distance startbase > 1000) &&
+				(_x distance startbase > 100) &&
 				(_x distance ( [] call F_getNearestFob) < GRLIB_fob_range) &&
 				(getObjectType _x >= 8)
 			}
